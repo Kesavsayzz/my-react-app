@@ -4,9 +4,11 @@ import HelloWorld from './comps/HelloWorld';
 
 function App() {
   return (
-    <div className="App">
-      <HelloWorld />
-    </div>
+    <>
+      <div className="App">
+        <HelloWorld />
+      </div>
+    </>
   );
 }
 
